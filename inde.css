@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 10vh; 
     background:
-    url("../img/heght1.png") no-repeat center;
+    url("/heght1.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100vh; 
     background:
-    url("../img/intro.jpg") no-repeat center;
+    url("/intro.jpg") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 .сenter__panel {
     height: 70vh; 
     background:
-    url("../img/ille.png") no-repeat center;
+    url("/ille.png") no-repeat center;
     background-size: 40;
     position: relative;
     top: 100px;
@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 20%;
     height: 18vh; 
     background:
-    url("../img/oval.png") no-repeat center;
+    url("/oval.png") no-repeat center;
     background-size: cover;
     position: relative;
     top: -30px;
@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 10%;
     height: 18vh; 
     background:
-    url("../img/circle.png");
+    url("/circle.png");
     background-size: cover;
     position: relative;
     top: -500px;
@@ -209,7 +209,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 10vh; 
     background:
-    url("../img/heght1.png") no-repeat center;
+    url("/heght1.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 115vh; 
     background:
-    url("../img/fon2.png") no-repeat center;
+    url("/fon2.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
@@ -252,7 +252,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 50vh;
     height: 70vh;
     background:
-    url("../img/breakfast.png") no-repeat center;
+    url("/breakfast.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
@@ -271,7 +271,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 50vh;
     height: 70vh;
     background:
-    url("../img/lunch.png") no-repeat center;
+    url("/lunch.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
@@ -290,7 +290,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 50vh;
     height: 70vh;
     background:
-    url("../img/dinner.png") no-repeat center;
+    url("/dinner.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
@@ -319,7 +319,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 25vh; 
     background:
-    url("../img/end.png") no-repeat center;
+    url("/end.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
@@ -358,7 +358,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 6.5Vh;
     height: 6.5vh; 
     background:
-    url("../img/myVk.png") no-repeat center;
+    url("/myVk.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
