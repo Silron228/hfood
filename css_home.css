@@ -1,0 +1,369 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.heght__line{
+    width: 100%;
+    height: 10vh; 
+    background:
+    url("../img/heght1.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 4000;
+}
+
+.header {
+    padding-top: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 6000;
+    
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 42px;
+    font-weight: 700;
+    color: #000;
+}
+
+.nav{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.nav__link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 30px;
+    color:#000;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.nav__link:hover{
+    color: gray;
+}
+
+/* Intro */
+
+.intro {
+    width: 100%;
+    height: 100vh; 
+    background:
+    url("../img/intro.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    top: 10px;
+    left: 0px;
+    right: 0px;
+    z-index: 3000;
+}
+
+
+/* Intro(Center panel) */
+.сenter__panel {
+    height: 70vh; 
+    background:
+    url("../img/ille.png") no-repeat center;
+    background-size: 40;
+    position: relative;
+    top: 100px;
+    left: 0;
+    right: 0;
+    z-index: 4000;
+
+}
+.intro__title{
+    color: #333;
+    font-size: 48px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.1;
+    position: relative;
+    top: 200px;
+    left: 0px;
+    right: 0px;
+    z-index: 5000;
+}
+.intro__title1{
+    color: #000;
+    font-size: 54px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.1;
+    position: relative;
+    top: -20px;
+    left: 0px;
+    right: 0px;
+    z-index: 5000;
+}
+
+/* Intro(OVAL) */
+.oval{
+    width: 20%;
+    height: 18vh; 
+    background:
+    url("../img/oval.png") no-repeat center;
+    background-size: cover;
+    position: relative;
+    top: -30px;
+    left: 850px;
+    right: 0px;
+    z-index: 5000;
+}
+
+
+.oval__text{
+    text-indent: 2;
+    color:white;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.1;
+    position: relative;
+    top: 22px;
+    left: 67px;
+    right: 0px;
+    z-index: 6000;
+    text-decoration: none;
+    transition: color 0.15s linear;
+}
+
+.oval__text:hover{
+    color: black;
+}
+
+/* Intro(circle) transform:rotate(-20deg)*/
+.circle{
+    transform:rotate(-20deg);
+    width: 10%;
+    height: 18vh; 
+    background:
+    url("../img/circle.png");
+    background-size: cover;
+    position: relative;
+    top: -500px;
+    left: 0px;
+    right: 0px;
+    z-index: 5000;
+}
+
+
+.circle__text{  
+    color:black;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.1;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    right: 0px;
+    z-index: 6000;
+    text-decoration: none;
+    transition: color 0.15s linear;
+}
+
+.circle__text:hover{
+    color: white;
+}
+
+/* Heght 2 */
+.heght2{
+    width: 100%;
+    height: 10vh; 
+    background:
+    url("../img/heght1.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 4000;
+}
+
+.section__header{
+    font-size: 20px;
+    padding-top: 15px;
+    position: absolute;
+    top: -17px;
+    left: 130px;
+    right: 0;
+    z-index: 5000;
+    color: #333;
+
+}
+
+
+
+/**/
+.fon2 {
+    width: 100%;
+    height: 115vh; 
+    background:
+    url("../img/fon2.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2000;
+}
+
+.breakfast{
+    width: 50vh;
+    height: 70vh;
+    background:
+    url("../img/breakfast.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    top: 100px;
+    left: 80px;
+    right: 0px;
+    z-index: 3000;
+}
+
+.breakfast:hover{
+    width: 49.2vh;
+    height: 69.2vh;
+}
+
+.lunch{
+    width: 50vh;
+    height: 70vh;
+    background:
+    url("../img/lunch.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 100px;
+    left: 525px;
+    right: 0px;
+    z-index: 3000;
+}
+
+.lunch:hover{
+    width: 49.2vh;
+    height: 69.2vh;
+}
+
+.dinner{
+    width: 50vh;
+    height: 70vh;
+    background:
+    url("../img/dinner.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 100px;
+    left: 900px;    
+    right: 0px;
+    z-index: 3000;
+}
+
+.dinner:hover{
+    width: 49.2vh;
+    height: 69.2vh;
+}
+
+.section__text{
+    font-size: 30px;
+    position: absolute;
+    top: 580px;
+    left: 290px;
+    right: 0;
+    z-index: 5000;
+    color: #333;
+}
+
+.end{
+    width: 100%;
+    height: 25vh; 
+    background:
+    url("../img/end.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 4000;
+}
+
+.end__logo{
+    position: absolute;
+    font-size: 42px;
+    color: gray;
+
+}
+
+.end__text{
+    position: absolute;
+    font-size: 30px;
+    color: gray;
+    top: 20px;
+    left: 1030px;
+    right: 0px;
+}
+
+.end__url{
+    font-size: 30px;
+    color: gray;
+    position: relative;
+    top: 100px;
+    left: 950px;
+    right: 0px;
+}
+
+.end__url__logo{
+    width: 6.5Vh;
+    height: 6.5vh; 
+    background:
+    url("../img/myVk.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    top: 55px;
+    left: 1150px;
+    right: 0px;
+    z-index: 4000;
+}
