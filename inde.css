@@ -255,9 +255,9 @@ h1, h2, h3, h4, h5, h6 {
     url("breakfast.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
-    position: relative;
+    position: absolute;
     top: 100px;
-    left: 8%;
+    left: 12%;
     right: 0px;
     z-index: 3000;
 }
