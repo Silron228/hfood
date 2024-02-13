@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     line-height: 1.1;
     position: relative;
-    top: 200px;
+    top: 50%;
     left: 0px;
     right: 0px;
     z-index: 5000;
@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     line-height: 1.1;
     position: relative;
-    top: -20px;
+    top: 0px;
     left: 0px;
     right: 0px;
     z-index: 5000;
@@ -137,13 +137,13 @@ h1, h2, h3, h4, h5, h6 {
 /* Intro(OVAL) */
 .oval{
     width: 20%;
-    height: 18vh; 
+    height: 20%; 
     background:
     url("oval.png") no-repeat center;
     background-size: cover;
-    position: relative;
-    top: -30px;
-    left: 850px;
+    position: absolute;
+    top: 70%;
+    left: 70%;
     right: 0px;
     z-index: 5000;
 }
@@ -156,9 +156,9 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
     text-align: center;
     line-height: 1.1;
-    position: relative;
+    position: absolute;
     top: 22px;
-    left: 67px;
+    left: 0px;
     right: 0px;
     z-index: 6000;
     text-decoration: none;
@@ -173,13 +173,13 @@ h1, h2, h3, h4, h5, h6 {
 .circle{
     transform:rotate(-20deg);
     width: 10%;
-    height: 18vh; 
+    height: 20%; 
     background:
     url("circle.png");
     background-size: cover;
-    position: relative;
-    top: -500px;
-    left: 0px;
+    position: absolute;
+    top: 10%;
+    left: 8%;
     right: 0px;
     z-index: 5000;
 }
@@ -257,7 +257,7 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
     position: relative;
     top: 100px;
-    left: 80px;
+    left: 8%;
     right: 0px;
     z-index: 3000;
 }
@@ -276,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
     position: absolute;
     top: 100px;
-    left: 525px;
+    left: 38%;
     right: 0px;
     z-index: 3000;
 }
@@ -295,7 +295,7 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
     position: absolute;
     top: 100px;
-    left: 900px;    
+    left: 63.5%;    
     right: 0px;
     z-index: 3000;
 }
@@ -308,8 +308,8 @@ h1, h2, h3, h4, h5, h6 {
 .section__text{
     font-size: 30px;
     position: absolute;
-    top: 580px;
-    left: 290px;
+    top: 80%;
+    left: 22%;
     right: 0;
     z-index: 5000;
     color: #333;
@@ -341,7 +341,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 30px;
     color: gray;
     top: 20px;
-    left: 1030px;
+    left: 75%;
     right: 0px;
 }
 
@@ -350,7 +350,7 @@ h1, h2, h3, h4, h5, h6 {
     color: gray;
     position: relative;
     top: 100px;
-    left: 950px;
+    left: 78%;
     right: 0px;
 }
 
@@ -363,7 +363,7 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
     position: relative;
     top: 55px;
-    left: 1150px;
+    left: 95%;
     right: 0px;
     z-index: 4000;
 }
