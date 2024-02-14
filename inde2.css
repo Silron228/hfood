@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 10vh; 
     background:
-    url("../img/heght1.png") no-repeat center;
+    url("heght1.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100vh; 
     background:
-    url("../img1/intro1.png") no-repeat center;
+    url("intro1.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 40%;
     height: 15%; 
     background:
-    url("../img1/comp1.png") no-repeat center;
+    url("comp1.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
@@ -122,7 +122,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 10vh; 
     background:
-    url("../img/heght1.png") no-repeat center;
+    url("heght1.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 220%; 
     background:
-    url("../img1/fon.png") no-repeat center;
+    url("fon.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 56%;
     height: 15%; 
     background:
-    url("../img1/panel1.png") no-repeat center;
+    url("panel1.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
@@ -176,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 56%;
     height: 15%; 
     background:
-    url("../img1/panel2.png") no-repeat center;
+    url("panel2.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
@@ -190,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 56%;
     height: 15%; 
     background:
-    url("../img1/panel3.png") no-repeat center;
+    url("panel3.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 56%;
     height: 15%; 
     background:
-    url("../img1/panel4.png") no-repeat center;
+    url("panel4.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
@@ -218,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 10vh; 
     background:
-    url("../img/heght1.png") no-repeat center;
+    url("heght1.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
@@ -232,7 +232,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 220%; 
     background:
-    url("../img1/fon3.png") no-repeat center;
+    url("fon3.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
@@ -246,7 +246,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 75%;
     height: 90%; 
     background:
-    url("../img1/text1.png") no-repeat center;
+    url("text1.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
@@ -260,7 +260,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 10vh; 
     background:
-    url("../img/heght1.png") no-repeat center;
+    url("heght1.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
@@ -274,7 +274,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 300%; 
     background:
-    url("../img1/fon4.png") no-repeat center;
+    url("fon4.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
@@ -288,7 +288,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 43%;
     height: 73%; 
     background:
-    url("../img1/text2.png") no-repeat center;
+    url("text2.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
@@ -302,7 +302,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 50%;
     height: 100%; 
     background:
-    url("../img1/img5.png") no-repeat center;
+    url("img5.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
@@ -327,7 +327,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 25vh; 
     background:
-    url("/img/end.png") no-repeat center;
+    url("end.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
@@ -366,7 +366,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 6.5Vh;
     height: 6.5vh; 
     background:
-    url("../img/myVk.png") no-repeat center;
+    url("myVk.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
