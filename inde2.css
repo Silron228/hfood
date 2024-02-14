@@ -1,0 +1,377 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.heght__line{
+    width: 100%;
+    height: 10vh; 
+    background:
+    url("../img/heght1.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 4000;
+}
+
+.header {
+    padding-top: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 6000;
+    
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 42px;
+    font-weight: 700;
+    color: #000;
+}
+
+.nav{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.nav__link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 30px;
+    color:#000;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.nav__link:hover{
+    color: gray;
+}
+
+.intro1 {
+    width: 100%;
+    height: 100vh; 
+    background:
+    url("../img1/intro1.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    right: 0px;
+    z-index: 3000;
+}
+
+.comp1 {
+    width: 40%;
+    height: 15%; 
+    background:
+    url("../img1/comp1.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 55%;
+    left: 8%;
+    right: 0px;
+    z-index: 3000;
+}
+
+.break {
+    font-size: 62px;
+    color: #000;
+    position: absolute;
+    top: 40%;
+    left: 16%;
+    right: 0px;
+    z-index: 4000;
+}
+
+/* Heght 2 */
+.heght2{
+    width: 100%;
+    height: 10vh; 
+    background:
+    url("../img/heght1.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 102%;
+    left: 0px;
+    right: 0px;
+    z-index: 6000;
+}
+
+.section__header{
+    font-size: 35px;
+    padding-top: 15px;
+    position: absolute;
+    top: -70%;
+    left: 32%;
+    right: 0;
+    z-index: 5000;
+    color: #333;
+
+}
+
+.fon {
+    width: 100%;
+    height: 220%; 
+    background:
+    url("../img1/fon.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 110%;
+    left: 0px;
+    right: 0px;
+    z-index: 5000;
+}
+
+.panel1 {
+    width: 56%;
+    height: 15%; 
+    background:
+    url("../img1/panel1.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 15%;
+    left: 22%;
+    right: 0px;
+    z-index: 3000;
+}
+
+.panel2 {
+    width: 56%;
+    height: 15%; 
+    background:
+    url("../img1/panel2.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 35%;
+    left: 22%;
+    right: 0px;
+    z-index: 3000;
+}
+
+.panel3 {
+    width: 56%;
+    height: 15%; 
+    background:
+    url("../img1/panel3.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 55%;
+    left: 22%;
+    right: 0px;
+    z-index: 3000;
+}
+
+.panel4 {
+    width: 56%;
+    height: 15%; 
+    background:
+    url("../img1/panel4.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 75%;
+    left: 22%;
+    right: 0px;
+    z-index: 3000;
+}
+
+.heght3{
+    width: 100%;
+    height: 10vh; 
+    background:
+    url("../img/heght1.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 330%;
+    left: 0px;
+    right: 0px;
+    z-index: 9000;
+}
+
+.fon3 {
+    width: 100%;
+    height: 220%; 
+    background:
+    url("../img1/fon3.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 340%;
+    left: 0px;
+    right: 0px;
+    z-index: 3000;
+}
+
+.text1 {
+    width: 75%;
+    height: 90%; 
+    background:
+    url("../img1/text1.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    right: 0px;
+    z-index: 4000;
+}
+
+.heght4{
+    width: 100%;
+    height: 10vh; 
+    background:
+    url("../img/heght1.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 560%;
+    left: 0px;
+    right: 0px;
+    z-index: 9000;
+}
+
+.fon4 {
+    width: 100%;
+    height: 300%; 
+    background:
+    url("../img1/fon4.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 569%;
+    left: 0px;
+    right: 0px;
+    z-index: 3000;
+}
+
+.text2 {
+    width: 43%;
+    height: 73%; 
+    background:
+    url("../img1/text2.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 7%;
+    left: 3%;
+    right: 0px;
+    z-index: 4000;
+}
+
+.img5 {
+    width: 50%;
+    height: 100%; 
+    background:
+    url("../img1/img5.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    right: 0px;
+    z-index: 4000;
+}
+
+.url_break{
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    right: 0px;
+}
+
+
+
+.end{
+    width: 100%;
+    height: 25vh; 
+    background:
+    url("/img/end.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 868%;
+    left: 0px;
+    right: 0px;
+    z-index: 4000;
+}
+
+.end__logo{
+    position: absolute;
+    font-size: 42px;
+    color: gray;
+
+}
+
+.end__text{
+    position: absolute;
+    font-size: 30px;
+    color: gray;
+    top: 20px;
+    left: 75%;
+    right: 0px;
+}
+
+.end__url{
+    font-size: 30px;
+    color: gray;
+    position: relative;
+    top: 100px;
+    left: 78%;
+    right: 0px;
+}
+
+.end__url__logo{
+    width: 6.5Vh;
+    height: 6.5vh; 
+    background:
+    url("../img/myVk.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    top: 55px;
+    left: 95%;
+    right: 0px;
+    z-index: 4000;
+}
