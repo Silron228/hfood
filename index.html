@@ -81,6 +81,12 @@
     <div class="end__url__logo"></div>
   </div>
 </div>
+<script src="/node_modules/canvaskit-wasm/bin/canvaskit.js"></script>
+CanvasKitInit({
+    locateFile: (file) => '/node_modules/canvaskit-wasm/bin/'+file,
+}).then((CanvasKit) => {
+    // Code goes here using CanvasKit
+});
 
 </body> 
 </html>
